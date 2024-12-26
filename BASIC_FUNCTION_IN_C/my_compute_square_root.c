@@ -13,8 +13,3 @@ int my_compute_square_root(int nb)
         value++;
     } return 0;
 }
-
-int main()
-{
-    printf("%d\n", my_compute_square_root(0));
-}
