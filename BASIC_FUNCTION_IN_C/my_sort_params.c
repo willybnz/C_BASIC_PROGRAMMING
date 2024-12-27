@@ -34,8 +34,8 @@ int main(int ac, char **av)
     int i = 1, j = 1;
     char *stock = malloc(sizeof(char) * 1000);
 
-    while (i < ac) {
-        while (j < ac - 1) {
+    while (i < ac - 1) {
+        while (j < - i) {
             if (av[i][j] > av[i][j + 1]) {
                 my_strcpy(stock, av[j]);
                 my_strcpy(av[j], av[j + 1]);
