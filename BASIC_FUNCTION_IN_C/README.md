@@ -4,7 +4,7 @@ Welcome to the exos directory. Here you will find basic functions coded in C lan
 
 Among these functions we have:
 
-**my_print_alpha**: This function prints the alphabet from 'a' to 'z' in ascending order.
+**<u> my_print_alpha </u> **: This function prints the alphabet from 'a' to 'z' in ascending order.
 It is prototyped as follows: 
 ```c
 int my_print_alpha(void);
