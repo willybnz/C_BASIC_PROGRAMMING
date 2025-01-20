@@ -6,25 +6,45 @@ Among these functions we have:
 
 **my_print_alpha**: This function prints the alphabet from 'a' to 'z' in ascending order.
 It is prototyped as follows: 
-```c int my_print_alpha(void);```
+```c
+int my_print_alpha(void);
+```
 
 **my_print_revalpha**: This function displays the alphabet in descending order i.e. from 'z' to 'a'.
-It is prototyped as follows: int my_print_revalpha(void)
+It is prototyped as follows: 
+```c
+int my_print_revalpha(void)
+```
 
 **my_print_digits**: This function prints all digits from 0 to 9 on a single line.
-It is prototyped as follows: int my_print_digits(void);
+It is prototyped as follows: 
+```c
+int my_print_digits(void);
+```
 
 **my_isneg**: This function lets you know if a number is negative or positive.
-It is prototyped as follows: int my_isneg(int n);
+It is prototyped as follows: 
+```c
+int my_isneg(int n);
+```
 
 **my_print_comb**: This function prints a combination of all numbers with three different digits.
-It is prototyped as follows: my_print_comb(void);
+It is prototyped as follows: 
+```c
+int my_print_comb(void);
+```
 
 **my_print_number**: This function displays the number passed as a parameter. But you are only allowed to use the write system function. The function must also be able to display negative numbers.
-It is prototyped as follows: int my_put_nbr(int nb);
+It is prototyped as follows: 
+```c
+int my_put_nbr(int nb);
+```
 
 **my_putstr**: This function displays all characters of a string.
-It is prototyped as follows: int my_putstr(char const *str);
+It is prototyped as follows: 
+```c
+int my_putstr(char const *str);
+```
 
 **my_strlen**: this function allows you to get the size of a string.
 It is prototyped as follows: int my_strlen(char const *str);
