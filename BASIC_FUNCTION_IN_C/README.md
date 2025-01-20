@@ -52,7 +52,7 @@ It is prototyped as follows:
 int my_strlen(char const *str);
 ```
 
-`               Ex: my_strlen("Tony") -> 4`
+`       Ex: my_strlen("Tony") -> 4`
 
 **my_evil_str**: This function allows you to get the reversed version of a string.
 It is prototyped as follows: 
