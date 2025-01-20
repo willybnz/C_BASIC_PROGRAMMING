@@ -97,3 +97,5 @@ int my_putnbr_base(int nbr, char *cont base);
 **my_getnbr_base**: This function allows you to convert a number into a given base. The difference this time is that the number is represented by a string.
 The function is prototyped as follows:
 int my_getnbr_base(char *nbr, char *base);
+
+<span style="color: blue;">Ceci est du texte bleu</span> et <span style="color: orange;">ceci est orange</span>.
