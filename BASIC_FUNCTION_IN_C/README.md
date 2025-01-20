@@ -20,8 +20,7 @@ int my_isneg(int n);
 
 
 
-<u> my_strlen </u>: cette fonction permet davoir la taille dune chaine de caractere.
-Elle est prototyper comme ci :
+<u>my_strlen</u>: cette fonction permet d’avoir la taille d’une chaîne de caractères.
+Elle est prototypée comme ci :
 
-<p style="color: blue;"> int </p> my_strlen(<p style="color: orange;"> char const *str <p>)
-
+<span style="color: blue;">int</span> my_strlen(<span style="color: orange;">const char *str</span>);
