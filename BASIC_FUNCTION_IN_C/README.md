@@ -4,7 +4,7 @@ Welcome to the exos directory. Here you will find basic functions coded in C lan
 
 Among these functions we have:
 
-<u>**my_print_alpha**</u>: This function prints the alphabet from 'a' to 'z' in ascending order.
+<u>my_print_alpha</u>: This function prints the alphabet from 'a' to 'z' in ascending order.
 It is prototyped as follows: 
 ```c
 int my_print_alpha(void);
@@ -100,5 +100,3 @@ int my_putnbr_base(int nbr, char *cont base);
 **my_getnbr_base**: This function allows you to convert a number into a given base. The difference this time is that the number is represented by a string.
 The function is prototyped as follows:
 int my_getnbr_base(char *nbr, char *base);
-
-<span style="color: green;">Ceci est du texte vert</span>, et <span style="color: purple;">ceci est violet</span>.
