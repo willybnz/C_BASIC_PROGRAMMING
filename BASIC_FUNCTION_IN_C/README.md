@@ -1,11 +1,14 @@
-### Welcome 
+### Welcome 🎉
 
 Welcome to the exos directory. Here you will find basic functions coded in C language that you can try to implement on your side in order to learn about the language. Most of these functions already exist in the language.
 
 Among these functions we have:
 
 **my_print_alpha**: This function prints the alphabet from 'a' to 'z' in ascending order.
-It is prototyped as follows: int my_print_alpha(void);
+It is prototyped as follows: 
+```c
+int my_print_alpha(void);
+```
 
 **my_print_revalpha**: This function displays the alphabet in descending order i.e. from 'z' to 'a'.
 It is prototyped as follows: int my_print_revalpha(void)
@@ -97,5 +100,3 @@ int my_putnbr_base(int nbr, char *cont base);
 **my_getnbr_base**: This function allows you to convert a number into a given base. The difference this time is that the number is represented by a string.
 The function is prototyped as follows:
 int my_getnbr_base(char *nbr, char *base);
-
-<span style="color: blue;">Ceci est du texte bleu</span> et <span style="color: orange;">ceci est orange</span>.
