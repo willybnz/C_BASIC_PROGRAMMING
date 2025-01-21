@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 int check_if_number_is_prime(int number);
-int prime_generator1(int x, int y);
-int prime_generator2(int x, int y);
-int prime(int x, int y);
+int prime_generator_when_x_inf_y(int x, int y);
+int prime_generator_when_x_sup_y(int x, int y);
+int prime_generator(int x, int y);
 int error_case(int ac, char **av);
