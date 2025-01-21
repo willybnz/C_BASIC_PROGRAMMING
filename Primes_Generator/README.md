@@ -9,8 +9,11 @@ int prime_generator(int x, int y);
 Here are some examples of expected results:
 
 `[BlaackMaan@DESKTOP] : ./prime_generator 2 5 | cat -e`
+
 `2$`
+
 `3$`
+
 `5$`
 
 `[BlaackMaan@DESKTOP] : ./prime_generator 10 1 | cat -e`
