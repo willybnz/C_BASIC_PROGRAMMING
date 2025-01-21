@@ -18,11 +18,11 @@ Here are some examples of expected results:
 
 `[BlaackMaan@DESKTOP] : ./prime_generator 10 1 | cat -e`
 
-`17$`
+`7$`
 
-`19$`
+`5$`
 
-`23$`
+`3$`
 
-`29$`
+`2$`
 

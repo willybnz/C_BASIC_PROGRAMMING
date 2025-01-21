@@ -53,8 +53,8 @@ int prime_generator(int x, int y)
 
 int error_case(int ac, char **av)
 {
-    if (atoi(av[1]) < 0 || atoi(av[2]) < 0) return 84;
     if (ac != 3) return 84;
+    if (atoi(av[1]) < 0 || atoi(av[2]) < 0) return 84;
 
     for (int i = 1; i < 3; i++) {
         for(int j = 0; av[i][j] != '\0'; j++) {
