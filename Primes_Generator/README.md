@@ -26,3 +26,7 @@ Here are some examples of expected results:
 
 `2$`
 
+
+`[BlaackMaan@DESKTOP] : ./prime_generator ; cat -e`
+
+`84`
