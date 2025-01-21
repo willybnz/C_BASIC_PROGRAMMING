@@ -17,8 +17,12 @@ Here are some examples of expected results:
 `5$`
 
 `[BlaackMaan@DESKTOP] : ./prime_generator 10 1 | cat -e`
+
 `17$`
+
 `19$`
+
 `23$`
+
 `29$`
 
