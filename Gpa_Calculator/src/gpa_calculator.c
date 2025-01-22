@@ -38,7 +38,6 @@ char *format_string(char *string)
     return stock;
 }
 
-
 char **stock_argument(int ac, char **argument)
 {
     int i = 1, j = 0, k = 0, index = 2;
@@ -49,7 +48,11 @@ char **stock_argument(int ac, char **argument)
         argument[i] = format_string(argument[i]);
         stock[j] = malloc(sizeof(char) * my_strlen(argument[i]));
         while (argument[i][index] != '\0') {
-            stock[j][k] = argument[i][index];
+            if (argument[i][index] >= '0' && argument[i][index] <= '9') {
+                stock[j][k] = argument[i][index];
+            } else {
+                return NULL;
+            }
             index++;
             k++;
         }
@@ -68,6 +71,18 @@ void free_tab(char **tab)
     } free(tab);
 }
 
+int error_case(int ac, char **av)
+{
+    if (ac == 1)
+        return 84;
+    
+    for (int i = 1; i < ac; i++) {
+        if ((av[i][0] >= 'A' && av[i][0] <= 'Z') || (av[i][1] == ',')) {
+        } else {
+            return 84;
+        }
+    }
+}
 
 int main(int ac, char **av)
 {
@@ -75,8 +90,10 @@ int main(int ac, char **av)
     float calcul = 0.0;
     char **test = stock_argument(ac, av);
 
+    if (test == NULL) return 84;
+    if (error_case(ac, av) == 84) return 84;
     while (i < ac) {
-        calcul = calcul + ( grade_and_point(av[i][0]) * my_getnbr(test[j]));
+        calcul = calcul + (grade_and_point(av[i][0]) * my_getnbr(test[j]));
         sum = sum + my_getnbr(test[j]);
         i++, j++;
     } calcul = calcul / sum; 
